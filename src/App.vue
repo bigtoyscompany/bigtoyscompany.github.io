@@ -37,12 +37,13 @@ function sendMail() {
       class="mt-6 text-xl md:text-4xl font-black color-black border-4 p-4 rounded-xl">
       {{ verified ? 'hi+' + (route.params.domain ?? 'bigtoyscompany.com') + '@nai.ba' : $t('ui.get_in_touch') }}
     </button>
-    <div class="mt-10 border-t-4 pt-4 border-white">
+    <div class="mt-10 border-t-4 pt-4 border-white flex place-content-between">
       <p class="text-xl md:text-2xl">
         <img class="inline-block h-10" src="@/assets/logo.png" />
-        2022 &copy; Big toys for big boys. <a title="米表联盟[Domain.Cards]" href="https://domain.cards/"><img
-            style="display: inline; height: 1.3rem;" src="https://domain.cards/api/badge/bigtoyscompany.com" /></a>
+        2022 &copy; Big toys for big boys.
       </p>
+      <a title="米表联盟[Domain.Cards]" href="https://domain.cards/"><img class="h-10"
+          src="https://domain.cards/api/badge/bigtoyscompany.com" /></a>
     </div>
   </footer>
 </template>
