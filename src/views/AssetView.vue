@@ -14,7 +14,7 @@ if (!domain) {
 }
 
 function getAvatarSize() {
-  if (window.visualViewport.width < 768) {
+  if ((window as any).visualViewport.width < 768) {
     return 5
   }
   return 10
@@ -54,14 +54,12 @@ function getAvatarSize() {
 
 .domain-image {
   width: 5rem;
-  height: 5rem;
   border-radius: 1rem;
 }
 
 @media (min-width: 768px) {
   .domain-image {
     width: 10rem;
-    height: 10rem;
   }
 
   .asset-domain {
