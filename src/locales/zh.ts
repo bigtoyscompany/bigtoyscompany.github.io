@@ -28,6 +28,7 @@ export default {
         "fredeburg_com": '弗雷德堡',
         "pppppppppp_com": '就十个P',
         "taubenberg_com": '陶本堡',
-        "hole_im": '洞，黑洞、虫洞'
+        "hole_im": '洞，黑洞、虫洞',
+        "joyousacademy_com": '快乐学院',
     }
 }

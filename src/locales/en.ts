@@ -28,6 +28,7 @@ export default {
         "fredeburg_com": 'Fredeburg',
         "pppppppppp_com": 'p*10',
         "taubenberg_com": 'Taubenberg',
-        "hole_im": 'Hole, Black hole, Wormhole'
+        "hole_im": 'Hole, Black hole, Wormhole',
+        "joyousacademy_com": 'Joyous Academy'
     }
 }
