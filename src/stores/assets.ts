@@ -54,9 +54,6 @@ export const useAssetsStore = defineStore({
         image: qiong
       },
       {
-        domain: 'Taubenberg.com'
-      },
-      {
         domain: 'TheBigPicture.cn'
       },
       {
@@ -68,9 +65,6 @@ export const useAssetsStore = defineStore({
       },
       {
         domain: 'pppppppppp.com',
-      },
-      {
-        domain: 'JoyousAcademy.com',
       },
       {
         domain: 'Xzg.com.cn'
