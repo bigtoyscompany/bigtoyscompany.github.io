@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  min-height: 100vh;
+  min-width: 100vw;
+
+  background-image: url(./background.svg?v2);
+  background-repeat: no-repeat;
+  background-position: right bottom;
+  background-size: auto 80vh;
+  background-color: rgb(16, 18, 20);
+
+  color: white;
+  font-family: "Roboto", "Ma Shan Zheng", arial, sans-serif;
+}
+
+#app {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0.5rem;
+}
+
+@media (min-width: 768px) {
+  #app {
+    padding: 2rem;
+  }
+}
+
+a {
+  text-decoration: none;
+}
